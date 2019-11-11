@@ -1,3 +1,2 @@
-# Write your code here.
-def room_assign
+def batch_badge_creator(names)
   
