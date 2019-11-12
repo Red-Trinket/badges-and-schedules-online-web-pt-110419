@@ -10,4 +10,9 @@ def batch_badge_creator(array)
   newArray
 end
 
-def assign_rooms
+def assign_rooms(speakers)
+  counter = 0
+  roomAssign = []
+  speakers.each do |speaker|
+    roomAssign.push("Hello, #{speaker}!")
+    
